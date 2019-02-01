@@ -1,0 +1,34 @@
+header{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url(../../img/pic2.jpeg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    nav{
+        padding: 10px;
+
+        .logo-name{
+            background: #616161;
+            color: #fff;
+            padding: 5px 10px;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+    
+        .sidenav-trigger{
+    
+            i{
+                 font-size: 35px !important;
+            }
+        }
+    } 
+     h1{
+         padding-top: 30px;
+     }
+
+}
+
+
+
+    
+ 

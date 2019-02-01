@@ -1,0 +1,71 @@
+ @import "layout/nav";
+ @import "layout/main-section";
+ @import "layout/second-section";
+
+
+ :root {
+    --text-color: #616161; 
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body{
+      color: var(--text-color);
+  }
+
+//   footer
+.page-footer{
+    background-color: var(--text-color);
+    .footer-copyright{
+        display: flex;
+        align-items: center;
+
+        a{
+            display: flex;
+            font-size: 17px;
+            i{
+                padding: 2px 5px;
+
+            }
+            
+        }
+    }
+
+}
+// Dropdown
+.dropdown-content{
+    a{
+        color: var(--text-color);
+    }
+    
+}
+
+//   Modal
+.modal{
+    i{
+        font-size: 25px;
+    }
+}
+.modal-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    p{
+        padding-left: 20px;
+    }
+}
+
+// Mobile phones
+@media only screen and (max-width: 600px) {
+     .modal-container{
+          flex-direction: column;
+
+          img{
+              width: 100%;
+          }
+     }
+  }
+

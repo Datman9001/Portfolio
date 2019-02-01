@@ -1,0 +1,72 @@
+header {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../../img/pic2.jpeg);
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  header nav {
+    padding: 10px; }
+    header nav .logo-name {
+      background: #616161;
+      color: #fff;
+      padding: 5px 10px;
+      letter-spacing: 2px;
+      font-weight: 700; }
+    header nav .sidenav-trigger i {
+      font-size: 35px !important; }
+  header h1 {
+    padding-top: 30px; }
+
+.main-section {
+  padding: 50px 0; }
+  .main-section .row-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+.second-section {
+  padding: 100px 0; }
+  .second-section .row-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+:root {
+  --text-color: #616161; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  color: var(--text-color); }
+
+.page-footer {
+  background-color: var(--text-color); }
+  .page-footer .footer-copyright {
+    display: flex;
+    align-items: center; }
+    .page-footer .footer-copyright a {
+      display: flex;
+      font-size: 17px; }
+      .page-footer .footer-copyright a i {
+        padding: 2px 5px; }
+
+.dropdown-content a {
+  color: var(--text-color); }
+
+.modal i {
+  font-size: 25px; }
+
+.modal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start; }
+  .modal-container p {
+    padding-left: 20px; }
+
+@media only screen and (max-width: 600px) {
+  .modal-container {
+    flex-direction: column; }
+    .modal-container img {
+      width: 100%; } }
